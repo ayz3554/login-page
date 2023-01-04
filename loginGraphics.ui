@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Zaloguj się</string>
+  </property>
+  <widget class="QWidget" name="bgLoginMenu" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#bgLoginMenu{
+background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.109453 rgba(38, 49, 89, 255), stop:1 rgba(255, 251, 235, 255))
+}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>160</y>
+      <width>390</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;Cascadia Code&quot;;color:rgb(255, 251, 235)</string>
+    </property>
+    <property name="text">
+     <string>Zaloguj się</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>240</y>
+      <width>400</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Cascadia Code&quot;;
+color:rgb(255, 251, 235)</string>
+    </property>
+    <property name="text">
+     <string>Zaloguj się do istniejącego konta</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="login">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>510</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+	border-radius: 14px;
+	background-color: rgb(255, 251, 235);
+	font: 14pt &quot;Cascadia Code&quot;;
+}
+
+QPushButton:hover
+{
+	color: rgb(255, 251, 235);
+	background-color: rgb(37, 23, 73);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Zaloguj się</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LELoginInput">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>350</y>
+      <width>341</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+	border-radius: 8px;
+	background-color: rgb(255, 251, 235);
+	border: 1px solid rgb(37, 23, 73);
+	font: 14pt &quot;Cascadia Code&quot;;
+	color: rgb(37, 23, 73);
+}
+
+QLineEdit:hover {
+	background-color: rgb(73, 85, 121);
+	color: rgb(255, 251, 235);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>320</y>
+      <width>231</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 8pt &quot;Cascadia Code&quot;;
+color: rgb(255, 251, 235);</string>
+    </property>
+    <property name="text">
+     <string>Nazwa użytkownika</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LEPasswordInput">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>430</y>
+      <width>341</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+	border-radius: 8px;
+	background-color: rgb(255, 251, 235);
+	border: 1px solid rgb(37, 23, 73);
+	font: 14pt &quot;Cascadia Code&quot;;
+	color: rgb(37, 23, 73);
+}
+
+QLineEdit:hover {
+	background-color: rgb(73, 85, 121);
+	color: rgb(255, 251, 235);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>410</y>
+      <width>231</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 8pt &quot;Cascadia Code&quot;;
+color: rgb(255, 251, 235);</string>
+    </property>
+    <property name="text">
+     <string>Hasło</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>485</y>
+      <width>331</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="success">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>485</y>
+      <width>331</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Cascadia Code&quot;;
+color: rgb(0, 165, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
